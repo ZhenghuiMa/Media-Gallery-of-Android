@@ -1,0 +1,14 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+    <header
+        android:fragment="com.derekma.videogallery.SettingsActivity$DataSyncPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/pref_header_play_type" />
+
+    <header
+        android:fragment="com.derekma.videogallery.SettingsActivity$NotificationPreferenceFragment"
+        android:icon="@drawable/ic_sync_black_24dp"
+        android:title="@string/pref_header_auto_update" />
+
+</preference-headers>
