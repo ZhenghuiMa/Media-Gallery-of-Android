@@ -14,17 +14,17 @@ public final class Config {
      * A static final variable.
      * Youtube API Key.
      */
-    public static final String YOUTUBE_API_KEY = "AIzaSyAKf2_-ilhM-6lEQAo7BiCcss-rGr1IbO0";
+    public static final String YOUTUBE_API_KEY = "your key";
 
     /**
      * A static final variable.
      * YouTube popular videos API.
      */
-    public static final String YOUTUBE_API_URL = "https://www.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=10&key=AIzaSyBGpMMSB8Qii7UMDCSQ-PCOPV1sB-E3K1g";
+    public static final String YOUTUBE_API_URL = "your api"";
 
     /**
      * A static final variable.
      * NPR news latest news API.
      */
-    public static final String NPR_NEWS_API = "http://api.npr.org/query?fields=title,storyDate,image,titles&requiredAssets=text,image&title=npr_news&dateType=story&sort=dateDesc&output=JSON&numResults=10&apiKey=MDIyNzUxMDU2MDE0NTU0MTE2NDM5Y2UyYw000";
+    public static final String NPR_NEWS_API = "your api";
 }
